@@ -1,0 +1,13 @@
+<html>
+    <body>
+        <h3>Hi ${user.name}, Welcome to XploreMe at Sports!</h3>
+		
+		<h3>Your Registration is Successfull for Sport ${user.sport}</h3>
+        <div>
+            Your email address is <a href="mailto:${user.name}">${user.PlayeremailId}</a>.
+        </div>
+        <div>
+        	Your Password is <h2>${user.password}</h2>.
+        </div>
+    </body>
+</html>

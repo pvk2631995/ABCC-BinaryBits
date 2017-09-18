@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Welcome Message</title>
+</head>
+
+<body>
+<center>
+<table width="600" background="#FFFFFF" style="text-align:left;" cellpadding="0" cellspacing="0">
+<tr>
+	<td height="18" width="17" style="border-bottom:1px solid #e4e4e4;">
+	<div style="line-height: 0px; font-size: 1px; position: absolute;">&nbsp;</div>
+	</td>
+	<td height="18" width="93">
+	<div style="line-height: 0px; font-size: 1px; position: absolute;">&nbsp;</div>
+	</td>
+	<td height="18" width="488" style="border-bottom:1px solid #e4e4e4;">
+	<div style="line-height: 0px; font-size: 1px; position: absolute;">&nbsp;</div>
+	</td>
+</tr>
+<tr>
+	<td height="2" width="17" style="border-bottom:1px solid #e4e4e4;">
+	<div style="line-height: 0px; font-size: 1px; position: absolute;">&nbsp;</div>
+	</td>
+	<td height="2" width="93">
+	<div style="line-height: 0px; font-size: 1px; position: absolute;">&nbsp;</div>
+	</td>
+	<td height="2" width="488" style="border-bottom:1px solid #e4e4e4;">
+	<div style="line-height: 0px; font-size: 1px; position: absolute;">&nbsp;</div>
+	</td>
+</tr>
+<!--GREEN STRIPE-->
+<tr>
+	<td width="17" bgcolor="#4cb1ca" style="border-top:1px solid #FFF; border-bottom:1px solid #FFF;" height="113">
+	<div style="line-height: 0px; font-size: 1px; position: absolute;">&nbsp;</div>
+	</td>
+	
+	<!--WHITE TEXT AREA-->
+	<td width="93" bgcolor="#FFFFFF" style="border-top:1px solid #FFF; text-align:center;" height="113" valign="middle">
+	<span style="font-size:25px; font-family:Trebuchet MS, Verdana, Arial; color:#2e8a3b;"><a href="index.html"><img src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xfl1/v/t1.0-9/12512485_143293439396491_3612502245688612787_n.jpg?oh=93e057c3329f78c0f3e8b0e13d1fc951&oe=5754ABA7&__gda__=1468259237_1c2e673dc95ca73b172f92435bccc715" alt=""/></a></span>
+	</td>
+	
+	<!--GREEN TEXT AREA-->
+	<td  bgcolor="#4cb1ca" style="border-top:1px solid #FFF; border-bottom:1px solid #FFF; padding-left:15px;" height="113">
+	<span style="color:#FFFFFF; font-size:18px; font-family:Trebuchet MS, Verdana, Arial;">Thank you for registering at XploreMe at Sports.</span>
+	</td>
+    
+</tr>
+
+<!--DOUBLE BORDERS BOTTOM-->
+<tr>
+	<td height="3" width="17" style="border-top:1px solid #e4e4e4; border-bottom:1px solid #e4e4e4;">
+	<div style="line-height: 0px; font-size: 1px; position: absolute;">&nbsp;</div>
+	</td>
+	<td height="3" width="93">
+	<div style="line-height: 0px; font-size: 1px; position: absolute;">&nbsp;</div>
+	</td>
+	<td height="3" style="border-top:1px solid #e4e4e4; border-bottom:1px solid #e4e4e4;">
+	<div style="line-height: 0px; font-size: 1px; position: absolute;">&nbsp;</div>
+	</td>
+</tr>
+<tr>
+	<td colspan="3">
+	<!--CONTENT STARTS HERE-->
+	<br />
+	<br />
+	<table width="587" cellpadding="0" cellspacing="0">
+	<tr>
+	<td width="15"><div style="line-height: 0px; font-size: 1px; position: absolute;">&nbsp;</div>
+</td>
+	<td width="455" style="padding-right:10px; font-family:Trebuchet MS, Verdana, Arial; font-size:12px;" valign="top">
+	  <p><span style="font-family:Trebuchet MS, Verdana, Arial; font-size:17px; font-weight:bold;">Dear ${user.name}, <br /><br />Welcome to XploreMe at Sports!</span>
+	    <br />
+	    </p>
+	  <p>You are successfully registered at XploreMe at Sports. You have choosen Sport ${user.sport}. XploreMe at Sports is the network for Students and Coaches across Colleges, Sports Clubs, and practically for everyone. We at XploreMe provide an innovative technology platform for Sports players and Coaches across the globe. XploreMe at Sports is a free online place for Players and Coaches to meet each other.</p>
+	  <p><b>Your Credentials</b></p>
+	  <p>	    For your reference, here are the credentials you've provided during the registration process. Please use them when prompted to log in:</p>
+      
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+							<tbody><tr>
+								<td width="70" style="font-size:12px;margin:0;color:#000;text-align:justify;line-height:21px"><strong>Login</strong></td>
+								<td style="font-size:12px;margin:0;color:#000;text-align:justify;line-height:21px">:&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:${user.name}">${user.PlayeremailId}</a><u></u></td>
+							</tr>
+                            
+                            <tr>
+								<td width="70" style="font-size:12px;margin:0;color:#000;text-align:justify;line-height:21px"><strong>Password</strong></td>
+								<td style="font-size:12px;margin:0;color:#000;text-align:justify;line-height:21px">:&nbsp;&nbsp;&nbsp;&nbsp;${user.password}<u></u></td>
+							</tr>
+						</tbody></table>
+                        <br />
+              <p style="font-size:12px;margin:0;color:#000;text-align:justify;line-height:21px">Once you are logged in to your account, you will be able to:</p><br />
+	  <div style="padding-left:20px; padding-bottom:10px;"><img src="http://www.staidit.com/wp-content/uploads/2015/01/tick-mark.png" alt=""/>&nbsp;&nbsp;&nbsp;Meet the Coaches and other players.</div>
+	  
+	  <div style="padding-left:20px; padding-bottom:10px;"><img src="http://www.staidit.com/wp-content/uploads/2015/01/tick-mark.png" alt=""/>&nbsp;&nbsp;&nbsp;Search for the players of sport you are intrested in</div>
+	  <div style="padding-left:20px; padding-bottom:10px;"><img src="http://www.staidit.com/wp-content/uploads/2015/01/tick-mark.png" alt=""/>&nbsp;&nbsp;&nbsp;Form a team for tournament.</div>
+	  
+	  <p>In the meantime, you can <a href="www.xploremeatsports.com">click here</a> to continue browsing.</p>
+	  
+	  Best Regards,<br/>
+	  <br/>
+	  <p style="font-size:12px;margin:0;color:#000000;text-align:left">The XploreMe Team.</p>
+      <p style="margin:0;min-height:20px"></p>
+	  
+	  This email was sent to<span style="font-size:12px;margin:0;color:#000;text-align:justify;line-height:21px">&nbsp;<a href="mailto:${user.name}">${user.PlayeremailId}</a></span> because you recently signed up with us.</td>
+	</tr>
+	</table>
+	</td>
+</tr>
+</table>
+<br />
+<table cellpadding="0" bgcolor="#4cb1ca" style="border-top:1px solid #e4e4e4; text-align:center; font-family:Trebuchet MS, Verdana, Arial; font-size:12px;" cellspacing="0" width="600">
+<tr>
+	<td height="2" style="border-bottom:1px solid #e4e4e4;">
+	<div style="line-height: 0px; font-size: 1px; position: absolute;">&nbsp;</div>
+	</td>
+</tr>
+	<td style="font-family:Trebuchet MS, Verdana, Arial; font-size:12px;">© 2016 Team SPS<br /></td>
+</tr>
+</table>
+</center>
+</body>
+</html>
